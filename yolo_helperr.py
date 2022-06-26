@@ -1,4 +1,5 @@
-from tensorflow.keras.utils import Sequence, Model
+from tensorflow.keras.utils import Sequence
+from keras.models import Model
 from keras.layers import Reshape, Activation, Conv2D, Input, MaxPooling2D, BatchNormalization, Flatten, Dense, Lambda, GlobalAveragePooling2D
 from keras.layers.advanced_activations import LeakyReLU
 from keras.layers.merge import concatenate
